@@ -1,0 +1,76 @@
+@media screen and (max-width: 800px) {
+
+    .desktop  { 
+        display: none !important;
+    }
+
+    .mobile { 
+        display: inherit !important;
+    }
+
+    #content {
+        padding: 1rem;
+        padding-bottom: 3rem;
+    }   
+
+    h1 {
+        font-size: 72px;
+    }
+
+    body {
+        width: 100%;
+    }
+
+
+    section#dateInfo>span { 
+        display: block;
+        margin: 2.5rem 0;
+        padding: 0;
+        line-height: normal;
+        width: 100%;
+    }
+
+    #date { 
+        margin: 3rem ;
+    }
+
+    #date>span { 
+        margin: 0;
+        padding: 0;
+    }
+
+    #march { 
+        font-weight: 300;
+    }
+
+    #year { 
+        font-size: 36px;
+        font-weight: 300;
+    }
+    
+    #day6 {
+        font-size: 68px;
+        padding:0;
+
+    }
+
+
+    .tagline { 
+        /* margin-top: 2rem; */
+        font-size: 28px;
+    }
+
+
+    .divider { 
+        margin: 1.5rem 0; 
+        font-size: 12px;
+    }
+
+
+    #dateInfo { 
+        margin: 1rem 0;
+    }
+
+
+    
+}
